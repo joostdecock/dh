@@ -13,6 +13,9 @@
     - Explains that she needs owl tears
     - Dr suggests to ask Otis Sabatucci for help
     - It's urgent, best not to wait
+ - Ask them to go to Sheila, ask about the egss and problems with supplies.
+ - Sheila might also have a scroll
+ - Tell Luneair to keep a handle on his emotions
 
 ## Otis
 
