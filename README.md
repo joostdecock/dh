@@ -10,7 +10,7 @@
  - Breakfast being served
  - (does Luneair bake something?)
  - Doctor visit
-    - Explains that she own tears
+    - Explains that she needs owl tears
     - Dr suggests to ask Otis Sabatucci for help
     - It's urgent, best not to wait
 
