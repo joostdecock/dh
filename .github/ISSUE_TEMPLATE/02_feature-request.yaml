@@ -20,9 +20,9 @@ body:
       label: Are you a FreeSewing patron? 😃 
       description: "Patrons support us financially :pray: so they get priority"
       options:
-        - "Yes, I am a tier-2 patron 💙"
-        - "Yes, I am a tier-4 patron 💙 🧡"
-        - "Yes, I am a tier-8 patron 💙 🧡 💜"
+        - "Yes, I am a tier-2 patron ❤️"
+        - "Yes, I am a tier-4 patron ❤️  💙"
+        - "Yes, I am a tier-8 patron ❤️  💙 💜"
         - "No, I am not 😞"
     validations:
       required: true
