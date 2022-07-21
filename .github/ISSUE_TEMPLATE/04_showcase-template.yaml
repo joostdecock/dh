@@ -36,7 +36,6 @@ body:
         - Charlie
         - Cornelius
         - Diana
-        - Examples
         - Florence
         - Florent
         - Hi
@@ -45,14 +44,11 @@ body:
         - Huey
         - Hugo
         - Jaeger
-        - Legend
         - Lucy
         - Lunetius
         - Noble
         - Paco
         - Penelope
-        - Plugintest
-        - Rendertest
         - Sandy
         - Shin
         - Simon
@@ -64,7 +60,6 @@ body:
         - Tiberius
         - Titan
         - Trayvon
-        - Tutorial
         - Unice
         - Ursula
         - Wahid
@@ -77,9 +72,9 @@ body:
       label: "Do we have permission to (re)post this? ✅"
       description: We only post showcases with permission from the original author. Please indicate whether or not permission was granted by choosing the relevant option in the list below
       options:
-        - I am the original author, and hereby grant permission to repost this content
-        - I am not the original author, but I have asked for permission on behalf of FreeSewing and the original author granted it
-        - Please ask permission from the original author
+        - ✅ I am the original author, and hereby grant permission to repost this content
+        - ✅ I am not the original author, but I have asked for permission on behalf of FreeSewing and the original author granted it
+        - ❌ Please ask permission from the original author
   - type: textarea
     id: extra
     attributes:
