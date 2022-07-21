@@ -1,7 +1,7 @@
 ---
 name: 🐛 Bug report
 description: Report a problem, or something that went wrong
-title: "[Bug]: "
+title: ""
 labels: "\U0001F41B bug"
 body:
   - type: markdown
@@ -20,8 +20,8 @@ body:
   - type: dropdown
     id: pkg
     attributes:
-      label: Design / Plugin / Package
-      description: "Do you know what design/plugin/package the bug is in? :monocle_face:"
+      label: "Design / Plugin / Package 🧐"
+      description: Do you know what design/plugin/package the bug is in?
       multiple: true
       options:
         - designs/aaron
