@@ -7,18 +7,12 @@ body:
   - type: markdown
     attributes:
       value: "Found an issue in our documentation, a blog post, showcase or other content? Please complete the information below so we can fix it :point_down:"
- - type: dropdown
-    id: patron
+  - type: input
+    id: url
     attributes:
-      label: Are you a FreeSewing patron? 😃 
-      description: "Patrons support us financially :pray: so they get priority"
-      options:
-        - "Yes, I am a tier-2 patron 💙"
-        - "Yes, I am a tier-4 patron 💙 🧡"
-        - "Yes, I am a tier-8 patron 💙 🧡 💜"
-        - "No, I am not 😞"
-    validations:
-      required: true
+      label: "Where can we see the problem? 🤔"
+      description: Provide a link here to the page to be updated. If the page provides an anchor link to the section of interest (indicated by a chain icon next to a heading) please copy that link if possible.
+      placeholder: "https://freesewing/docs/patterns/aaron/cutting"
   - type: textarea
     id: suggestion
     attributes:
