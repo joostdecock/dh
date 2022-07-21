@@ -6,7 +6,7 @@ labels: "\U0001F41B bug"
 assignees: ''
 body:
   - type: markdown
-    attributes: :
+    attributes:
       value: |
         Bugs happen :shrug: We appreciate you're taking the time to report this
          
