@@ -17,8 +17,6 @@ body:
       placeholder: |
         When I generate a Simone with my dimensions, the corners of the yoke appear malformed. \
         This happens both in the lab as on freesewing.org. Seems to occur only when the `box pleat` option is enabled.
-    validations:
-      required: true
   - type: dropdown
     id: pkg
     attributes:
