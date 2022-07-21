@@ -14,7 +14,7 @@ body:
       description: Provide a link here to where we can find the pictures/description. Like a blog post or Instagram post, or something on Discord or ...
       placeholder: "https://www.instagram.com/p/CgRPJCqjgTw/"
   - type: dropdown
-    id: pkg
+    id: design
     attributes:
       label: "Do you know what FreeSewing design was used? 🧐"
       description: If you know which of our patterns was used, please select one of more from the list below
@@ -72,7 +72,7 @@ body:
         - Waralee
         - Yuri
   - type: dropdown
-    id: pkg
+    id: permission
     attributes:
       label: "Do we have permission to (re)post this? ✅"
       description: We only post showcases with permission from the original author. Please indicate whether or not permission was granted by choosing the relevant option in the list below
