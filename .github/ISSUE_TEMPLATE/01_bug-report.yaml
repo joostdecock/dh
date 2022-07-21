@@ -7,7 +7,6 @@ body:
   - type: markdown
     attributes:
       value: |
-        Bugs happen :shrug: We appreciate you're taking the time to report this \
         Please complete the information below so we know what's going on :point_down:
   - type: textarea
     id: desc
@@ -130,4 +129,10 @@ body:
     attributes:
       label: Additional context
       description: Add any other context or screenshots about the issue you are facing here.
+  - type: markdown
+    attributes:
+      value: |
+        ThankBugs happen :shrug: We appreciate you're taking the time to report this \
+        Please keep in mind that **FreeSewing is a community project** that depends on
+        [your support](https://freesewing.org/community/join/).
 ---
