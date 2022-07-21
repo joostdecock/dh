@@ -6,8 +6,7 @@ labels: "\U0001F41B bug"
 body:
   - type: markdown
     attributes:
-      value: |
-        Please complete the information below so we know what's going on :point_down:
+      value: "Bugs happen :shrug: Please complete the information below so we know what's going on :point_down:"
   - type: textarea
     id: desc
     attributes:
@@ -132,6 +131,5 @@ body:
   - type: markdown
     attributes:
       value: |
-        We appreciate you're taking the time to report this \
         Please keep in mind that **FreeSewing is a community project** that depends on [your support](https://freesewing.org/community/join/).
 ---
