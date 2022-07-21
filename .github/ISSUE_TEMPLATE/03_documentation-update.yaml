@@ -2,7 +2,7 @@
 name: "📝 Documentation/content update"
 description: Suggest updates to FreeSewing documentation or site content
 title: "[docs]: "
-labels: [ "\U0001F44D good first issue, \U0001F4D6 documentation" ]
+labels: [ "\U0001F44D good first issue", "\U0001F4D6 documentation" ]
 body:
   - type: markdown
     attributes:
