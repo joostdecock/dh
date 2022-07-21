@@ -7,22 +7,23 @@ body:
   - type: markdown
     attributes:
       value: |
-        Bugs happen :shrug: We appreciate you're taking the time to report this
-         
-        Please complete the information below so we know what's going on:
+        Bugs happen :shrug: We appreciate you're taking the time to report this \
+        Please complete the information below so we know what's going on :point_down:
   - type: textarea
     id: desc
     attributes:
-      label: What seems to be the problem?
-      description: Please provide a clear and concise description of the problem you encountered.
-      placeholder: When I generate Aaron, I get Bella instead
+      label: What seems to be the problem? :thinking:
+      description: Please provide a clear and concise description of the problem you encountered
+      placeholder: |
+        When I generate a Simone with my dimensions, the corners of the yoke appear malformed. \
+        This happens both in the lab as on freesewing.org. Seems to occur only when the `box pleat` option is enabled.
     validations:
       required: true
   - type: dropdown
     id: pkg
     attributes:
       label: Design / Plugin / Package
-      description: Do you know what design/plugin/package the bug is in?
+      description: Do you know what design/plugin/package the bug is in? :monocle_face:
       multiple: true
       options:
         - designs/aaron
@@ -119,11 +120,11 @@ body:
   - type: dropdown
     id: patron
     attributes:
-      label: Are you a FreeSewing patron?
+      label: Are you a FreeSewing patron? 
       description: Patrons get priority. Those are the rules.
       options:
-        - Yes, I am
-        - No, I am not
+        - Yes, I am :heart:
+        - No, I am not :disappointed: 
     validations:
       required: true
   - type: textarea
