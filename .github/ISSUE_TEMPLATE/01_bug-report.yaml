@@ -132,7 +132,6 @@ body:
   - type: markdown
     attributes:
       value: |
-        ThankBugs happen :shrug: We appreciate you're taking the time to report this \
-        Please keep in mind that **FreeSewing is a community project** that depends on
-        [your support](https://freesewing.org/community/join/).
+        We appreciate you're taking the time to report this \
+        Please keep in mind that **FreeSewing is a community project** that depends on [your support](https://freesewing.org/community/join/).
 ---
