@@ -12,7 +12,7 @@ body:
   - type: textarea
     id: desc
     attributes:
-      label: "What seems to be the problem? :thinking:"
+      label: "What seems to be the problem? 🤔"
       description: Please provide a clear and concise description of the problem you encountered
       placeholder: |
         When I generate a Simone with my dimensions, the corners of the yoke appear malformed. \
@@ -120,13 +120,13 @@ body:
   - type: dropdown
     id: patron
     attributes:
-      label: Are you a FreeSewing patron? 
+      label: Are you a FreeSewing patron? 😃 
       description: "Patrons support us financially :pray: so they get priority"
       options:
-        - "Yes, I am a tier-2 patron :heart:"
-        - "Yes, I am a tier-4 patron :heart: :heart:"
-        - "Yes, I am a tier-8 patron :heart: :heart: :heart:"
-        - "No, I am not :disappointed:"
+        - "Yes, I am a tier-2 patron 💙"
+        - "Yes, I am a tier-4 patron 💙 🧡"
+        - "Yes, I am a tier-8 patron 💙 🧡 💜"
+        - "No, I am not 😞"
     validations:
       required: true
   - type: textarea
