@@ -121,9 +121,11 @@ body:
     id: patron
     attributes:
       label: Are you a FreeSewing patron? 
-      description: Patrons get priority. Those are the rules.
+      description: Patrons support us financially :pray: so they get priority
       options:
-        - "Yes, I am :heart:"
+        - "Yes, I am a tier-2 patron :heart:"
+        - "Yes, I am a tier-4 patron :heart: :heart:"
+        - "Yes, I am a tier-8 patron :heart: :heart: :heart:"
         - "No, I am not :disappointed:"
     validations:
       required: true
