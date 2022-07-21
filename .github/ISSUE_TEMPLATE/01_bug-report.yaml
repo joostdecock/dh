@@ -115,8 +115,6 @@ body:
         - packages/rehype-jargon
         - packages/remark-jargon
         - packages/utils
-    validations:
-      required: true
   - type: dropdown
     id: patron
     attributes:
