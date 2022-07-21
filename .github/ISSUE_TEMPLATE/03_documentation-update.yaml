@@ -1,8 +1,8 @@
 ---
-name: "📝 Documentation or content update"
-title: "[docs]: "
 description: Suggest updates to FreeSewing documentation or site content
 labels: [ "\U0001F44D good first issue", "\U0001F4D6 documentation" ]
+name: "📝 Documentation or content update"
+title: "[docs]: "
 body:
   - type: markdown
     attributes:
