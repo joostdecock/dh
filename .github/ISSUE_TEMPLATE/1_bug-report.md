@@ -1,0 +1,135 @@
+---
+name: 🐛 Bug report
+description: Report a problem, or something that went wrong
+title: "[Bug]: "
+labels: "\U0001F41B bug"
+assignees: ''
+body:
+  - type: markdown
+    attributes: :
+      value: |
+        Bugs happen :shrug: We appreciate you're taking the time to report this
+         
+        Please complete the information below so we know what's going on:
+  - type: textarea
+    id: desc
+    attributes:
+      label: What seems to be the problem?
+      description: Please provide a clear and concise description of the problem you encountered.
+      placeholder: When I generate Aaron, I get Bella instead
+    validations:
+      required: true
+  - type: dropdown
+    id: pkg
+    attributes:
+      label: Design / Plugin / Package
+      description: Do you know what design/plugin/package the bug is in?
+      multiple: true
+      options:
+        - designs/aaron
+        - designs/albert
+        - designs/bee
+        - designs/bella
+        - designs/benjamin
+        - designs/bent
+        - designs/bob
+        - designs/breanna
+        - designs/brian
+        - designs/bruce
+        - designs/carlita
+        - designs/carlton
+        - designs/cathrin
+        - designs/charlie
+        - designs/cornelius
+        - designs/diana
+        - designs/examples
+        - designs/florence
+        - designs/florent
+        - designs/hi
+        - designs/holmes
+        - designs/hortensia
+        - designs/huey
+        - designs/hugo
+        - designs/jaeger
+        - designs/legend
+        - designs/lucy
+        - designs/lunetius
+        - designs/noble
+        - designs/paco
+        - designs/penelope
+        - designs/plugintest
+        - designs/rendertest
+        - designs/sandy
+        - designs/shin
+        - designs/simon
+        - designs/simone
+        - designs/sven
+        - designs/tamiko
+        - designs/teagan
+        - designs/theo
+        - designs/tiberius
+        - designs/titan
+        - designs/trayvon
+        - designs/tutorial
+        - designs/unice
+        - designs/ursula
+        - designs/wahid
+        - designs/walburga
+        - designs/waralee
+        - designs/yuri
+        - plugins/plugin-banner
+        - plugins/plugin-bartack
+        - plugins/plugin-bundle
+        - plugins/plugin-bust
+        - plugins/plugin-buttons
+        - plugins/plugin-cutonfold
+        - plugins/plugin-dimension
+        - plugins/plugin-export-dxf
+        - plugins/plugin-flip
+        - plugins/plugin-gore
+        - plugins/plugin-grainline
+        - plugins/plugin-i18n
+        - plugins/plugin-logo
+        - plugins/plugin-measurements
+        - plugins/plugin-mirror
+        - plugins/plugin-notches
+        - plugins/plugin-round
+        - plugins/plugin-scalebox
+        - plugins/plugin-sprinkle
+        - plugins/plugin-svgattr
+        - plugins/plugin-theme
+        - plugins/plugin-title
+        - plugins/plugin-validate
+        - plugins/plugin-versionfree-svg
+        - packages/components
+        - packages/config-helpers
+        - packages/core
+        - packages/css-theme
+        - packages/gatsby-remark-jargon
+        - packages/i18n
+        - packages/models
+        - packages/mui-theme
+        - packages/new-design
+        - packages/pattern-info
+        - packages/prettier-config
+        - packages/rehype-jargon
+        - packages/remark-jargon
+        - packages/utils
+    validations:
+      required: true
+  - type: dropdown
+    id: patron
+    attributes:
+      label: Are you a FreeSewing patron?
+      description: Patrons get priority. Those are the rules.
+      options:
+        - Yes, I am
+        - No, I am not
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional context
+      description: Add any other context or screenshots about the issue you are facing here.
+---
